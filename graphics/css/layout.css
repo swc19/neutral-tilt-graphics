@@ -1,0 +1,141 @@
+
+body{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+.wrapper{
+	display: block;
+	background: url("../images/NT-Layout.png");
+	font-family: Roboto;
+	color:black;
+	width: 1920px;
+	height: 1080px;
+	position: relative;
+}
+.top-bar{
+	position: absolute;	
+	color: white;
+	top: 22px;
+	height: 45px;
+	line-height: 40px;
+	width: 550px;
+	left: 930px;
+	font-size: 36px;
+	text-align: center;
+}
+.player1-port{
+	position: absolute;
+	background-color: white;
+	height: 25px;
+	bottom: 25px;
+	width: 200px;
+}
+.player1-info{
+	position: absolute;
+	text-align: center;
+	color: white;
+	width: 225px;
+	left: 75px;
+	top: 520px;
+	font-size: 36px;
+}
+.player1-tag{
+	position: absolute;
+	height: 30px;
+	vertical-align: middle;
+	line-height: 20px;
+	width: 265px;
+}
+/* .player1-pronouns{
+	position: absolute;
+	color:white;
+	font-size:14px;
+	bottom:9px;
+	left:52px;
+	width:150px;
+} */
+.player1-score{
+	position: absolute;
+	width: 30px;
+	top: -10px;
+	left: 280px;
+	font-size: 36px;
+}
+.player2-info{
+	position: absolute;
+	text-align: center;
+	color: white;
+	width: 225px;
+	left: 75px;
+	top: 640px;
+	font-size: 36px;
+}
+.port-1{
+	position: absolute;
+	height: 15px;
+	bottom: 30px;
+	width: 15px;
+	border-radius: 50%;
+	outline: 4px solid black;
+}
+.port-1.filled{
+	background-color: #ed3636;
+}
+.port-2{
+	position: absolute;
+	left: 30px;
+	height: 15px;
+	bottom: 30px;
+	width: 15px;
+	border-radius: 50%;
+	outline: 4px solid black;
+}
+.port-2.filled{
+	background-color: blue;
+}
+.port-3{
+	position: absolute;
+	left: 60px;
+	height: 15px;
+	bottom: 30px;
+	width: 15px;
+	border-radius: 50%;
+	outline: 4px solid black;
+}
+.port-3.filled{
+	background-color: #ffdf1a;
+}
+.port-4{
+	position: absolute;
+	left: 90px;
+	height: 15px;
+	bottom: 30px;
+	width: 15px;
+	border-radius: 50%;
+	outline: 4px solid black;
+}
+.port-4.filled{
+	background-color: #4eb94e;
+}
+.player2-tag{
+	position: absolute;
+	height: 30px;
+	line-height: 20px;
+	width: 265px;
+}
+/* .player2-pronouns{
+	position: absolute;
+	color:white;
+	font-size:14px;
+	bottom:9px;
+	left:55px;
+	width:150px;
+} */
+.player2-score{
+	position: absolute;
+	width: 30px;
+	top: -10px;
+	left: 280px;
+	font-size: 36px;
+}
