@@ -1,0 +1,105 @@
+body{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+.thumbnail-container{
+	font-family: Arial;
+	display: block;
+	width: 1920px;
+	height: 1080px;
+	position: absolute;
+	overflow: hidden;
+}
+.thumbnail{
+	width: 1920px;
+	height: 1080px;
+}
+.background-image{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+.renders{
+	position: absolute;
+	display: inline-flex;
+	z-index: 2;
+	
+}
+.player1-render{
+	z-index: 2;
+
+	
+}
+.player2-render{
+	z-index: 2;
+	position: relative;
+	right: -1100px;
+	transform: scaleX(-1);
+}
+.render img{
+	position: relative;
+	overflow: hidden;
+	left: 150px;
+	top: 325px;
+	max-width: 800px;
+	max-height: 900px;
+	width: auto;
+	height: auto;
+	object-fit: contain;
+	z-index: 200;
+	transform: scale(2);
+}
+
+.ui-button{
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	z-index: 4;
+	left: 875px;
+}
+.text{
+	position: relative;
+	text-transform: uppercase;
+	display: block;
+	text-align: center;
+	z-index: 500;
+}
+.bracket-location{
+	position: absolute;
+	font-size: 60px;
+	width: 530px;
+	height: 60px;
+	line-height: 60px;
+	bottom: 410px;
+	left: 696px;
+}
+
+.player1-tag{
+	top: 5px;
+	position: absolute;
+	width: 800px;
+	height: 150px;
+	line-height: 150px;
+	left: 50px;
+	font-size: 96px;
+}
+.player2-tag{
+	top: 5px;
+	position: absolute;
+	width: 800px;
+	height: 150px;
+	line-height: 150px;
+	right: 50px;
+	font-size: 96px;
+}
+.foreground-image{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 1920px;
+	height: 1080px;
+	z-index: 3;
+}

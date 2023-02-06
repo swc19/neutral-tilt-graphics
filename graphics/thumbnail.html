@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<title>RIT Smash Club Thumbnail</title>
+	<link rel="stylesheet" href="css/thumbnail.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+	<script src="https://html2canvas.hertzen.com/dist/html2canvas.js"></script>
+	<script src="js/thumbnail-gen.js"></script>
+
+</head>
+<body>
+
+<div class="thumbnail-container">
+	<button class="save-to-image ui-button ui-widget" onclick="takeScreen()">Save as Image</button>
+	<div class="thumbnail">
+		<div class="info">
+			<div class="text player1-tag"></div>
+			<div class="text player2-tag"></div>
+			<div class="text bracket-location"></div>
+		</div>
+		<div class="layout-images">
+			<div class="image background-image"><img src="images/thumbnail-bg.png"></div>
+			<div class="image foreground-image"><img src="images/thumbnail-fg.png"></div>
+		</div>
+		
+		<div class="renders">
+			<div class="image render player1-render"><img src=""></div>
+			<div class="image render player2-render"><img src=""></div>
+		</div>
+		
+		
+	
+	</div>
+</div>
+
+
+
+</body>
+</html>
