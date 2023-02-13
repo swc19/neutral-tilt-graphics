@@ -4,7 +4,7 @@ body{
 	margin: 0;
 }
 .thumbnail-container{
-	font-family: Arial;
+	font-family: 'Cabin', sans-serif;
 	display: block;
 	width: 1920px;
 	height: 1080px;
@@ -36,17 +36,17 @@ body{
 .player2-render{
 	z-index: 2;
 	position: relative;
-	right: -1100px;
+	right: -1130px;
 	transform: scaleX(-1);
 }
 .render img{
 	position: relative;
 	overflow: hidden;
-	left: 150px;
-	top: 325px;
+	left: 175px;
+	top: 355px;
 	max-width: 800px;
 	max-height: 900px;
-	width: auto;
+	width: 120%;
 	height: auto;
 	object-fit: contain;
 	z-index: 200;
@@ -58,7 +58,7 @@ body{
 	height: 150px;
 	position: absolute;
 	z-index: 4;
-	left: 875px;
+	left: 885px;
 }
 .text{
 	position: relative;
@@ -66,33 +66,34 @@ body{
 	display: block;
 	text-align: center;
 	z-index: 500;
+	color: white;
 }
 .bracket-location{
 	position: absolute;
-	font-size: 60px;
+	font-size: 72px;
 	width: 530px;
 	height: 60px;
 	line-height: 60px;
-	bottom: 410px;
-	left: 696px;
+	bottom: 105px;
+	left: 695px;
 }
 
 .player1-tag{
-	top: 5px;
+	top: -15px;
 	position: absolute;
 	width: 800px;
 	height: 150px;
 	line-height: 150px;
-	left: 50px;
+	left: 75px;
 	font-size: 96px;
 }
 .player2-tag{
-	top: 5px;
+	top: -15px;
 	position: absolute;
 	width: 800px;
 	height: 150px;
 	line-height: 150px;
-	right: 50px;
+	right: 75px;
 	font-size: 96px;
 }
 .foreground-image{

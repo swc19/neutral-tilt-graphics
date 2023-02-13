@@ -26,7 +26,6 @@ function FixSize(selector){
 
 function doPorts(player, port){
 	var classnames = ['port-1', 'port-2', 'port-3', 'port-4'];
-	console.log(player, port);
 	classnames.forEach((name) => {
 		name.includes(port) ? $(`.${player}.${name}`).addClass('filled') : $(`.${player}.${name}`).removeClass('filled')
 	})
@@ -38,9 +37,11 @@ $(() => {
 	function loadSmashControl(){
 		const bundle = 'nodecg-smashcontrol';
 		var bracketlocation = $('.bracket-location');
+		var player1char = $('.player1-char');
 		var player1name = $('.player1-tag');
 		// var player1pronouns = $('.player1-pronouns');
 		var p1score = $('.player1-score');
+		var player2char = $('.player2-char');
 		var player2name = $('.player2-tag');
 		// var player2pronouns = $('.player2-pronouns');
 		var p2score = $('.player2-score');
@@ -74,6 +75,9 @@ $(() => {
 				p1score.text(player1score.value);
 				p2score.text(player2score.value);
 			});
+			var linkToImage = "../../nodecg-smashcontrol/dashboard/images/" + setData.game + "/";
+            player1char.children().attr("src", (linkToImage + setData.player1character.split("[REMIX] ").at(-1) + ".png"));
+            player2char.children().attr("src", (linkToImage + setData.player2character.split("[REMIX] ").at(-1) + ".png"));
 			toFix = ['.player1-tag', '.player2-tag']
 			toFix.map(FixSize)
 		}

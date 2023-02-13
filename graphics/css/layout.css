@@ -24,6 +24,15 @@ body{
 	font-size: 36px;
 	text-align: center;
 }
+.icon{
+	position: absolute;
+	top: -10px;
+	left: -42px;
+}
+.icon img{
+	height: 30px;
+	width: 24px;
+}
 .player1-port{
 	position: absolute;
 	background-color: white;
@@ -36,7 +45,7 @@ body{
 	text-align: center;
 	color: white;
 	width: 225px;
-	left: 75px;
+	left: 105px;
 	top: 520px;
 	font-size: 36px;
 }
@@ -59,7 +68,7 @@ body{
 	position: absolute;
 	width: 30px;
 	top: -10px;
-	left: 280px;
+	left: 275px;
 	font-size: 36px;
 }
 .player2-info{
@@ -67,10 +76,32 @@ body{
 	text-align: center;
 	color: white;
 	width: 225px;
-	left: 75px;
+	left: 105px;
 	top: 640px;
 	font-size: 36px;
 }
+.player2-tag{
+	position: absolute;
+	height: 30px;
+	line-height: 20px;
+	width: 265px;
+}
+/* .player2-pronouns{
+	position: absolute;
+	color:white;
+	font-size:14px;
+	bottom:9px;
+	left:55px;
+	width:150px;
+} */
+.player2-score{
+	position: absolute;
+	width: 30px;
+	top: -10px;
+	left: 275px;
+	font-size: 36px;
+}
+
 .port-1{
 	position: absolute;
 	height: 15px;
@@ -117,25 +148,4 @@ body{
 }
 .port-4.filled{
 	background-color: #4eb94e;
-}
-.player2-tag{
-	position: absolute;
-	height: 30px;
-	line-height: 20px;
-	width: 265px;
-}
-/* .player2-pronouns{
-	position: absolute;
-	color:white;
-	font-size:14px;
-	bottom:9px;
-	left:55px;
-	width:150px;
-} */
-.player2-score{
-	position: absolute;
-	width: 30px;
-	top: -10px;
-	left: 280px;
-	font-size: 36px;
 }
