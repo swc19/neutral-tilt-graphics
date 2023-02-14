@@ -68,6 +68,18 @@ body{
 	z-index: 500;
 	color: white;
 }
+.tournament-name{
+	position:absolute;
+	bottom:0;
+	left:10px;
+	font-size: 82px;
+}
+.tournament-date{
+	position: absolute;
+	right:10px;
+	bottom:0;
+	font-size: 82px;
+}
 .bracket-location{
 	position: absolute;
 	font-size: 72px;
